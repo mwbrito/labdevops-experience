@@ -8,12 +8,3 @@ csrf = CSRFProtect(app)
 @app.route("/")
 def pagina_inicial():
     return "<h1>Hello World with Github Actions/GCP</h1><br><br><b>#fiap #10aso</b>"
-
-#@app.route('/bug')                                                                                                                                
-#def bad():                                                                                                                                        
-#    try:                                                                                                                                          
-#        raise TypeError()                                                                                                                         
-#    except TypeError as e:                                                                                                                        
-#        print(e)                                                                                                                                  
-#    except TypeError as e:                                                                                                                        
-#        print("Duplicado, ou seja, nunca vai entrar aqui.")
